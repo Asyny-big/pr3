@@ -23,10 +23,10 @@ int main() {
 
     switch (choice) {
         case 1:
-            LoadRun("array_lib.dll");
+            LoadRun("array_lib.so");
             break;
         case 2:
-            LoadRun("matrix_lib.dll");
+            LoadRun("matrix_lib.so");
             break;
         default:
             printf("Неверный выбор!\n");
